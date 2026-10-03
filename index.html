@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CS336 从零构建语言模型 · 讲义（中英对照）</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, "PingFang SC", "Segoe UI", sans-serif;
+         max-width: 780px; margin: 0 auto; padding: 32px 20px 64px;
+         line-height: 1.6; }
+  h1 { font-size: 1.5em; } h2 { font-size: 1.1em; margin-top: 2em; }
+  li { margin: 10px 0; }
+  .badge { display: inline-block; font-size: .75em; padding: 1px 8px; border-radius: 10px;
+           vertical-align: 2px; margin-left: 8px; }
+  .zh .badge { background: #e8f0e4; color: #2d6a2d; }
+  .en .badge { background: #eee; color: #777; }
+  a { color: #3b6ea5; }
+  footer { margin-top: 3em; font-size: .85em; opacity: .7; }
+</style>
+</head>
+<body>
+<h1>CS336 · Language Modeling from Scratch<br>斯坦福《从零构建语言模型》讲义</h1>
+<p>Spring 2026 全部 17 讲。<b>中英对照</b>版本由英文原文逐段附中文译文重制
+（9 个可执行讲义），其余 8 讲为官方原版 PDF。双语版每段英文下方的灰色小字即译文。</p>
+<h2>中英对照（可执行讲义 · 重制版）</h2>
+<ul>
+<li class="zh"><a href="lecture_01_overview_tokenization.pdf">第 1 讲 · 课程总览与 Tokenization</a><span class="badge">中英对照 · 3.5 MB</span></li>
+<li class="zh"><a href="lecture_02_pytorch_resource_accounting.pdf">第 2 讲 · PyTorch 与资源开销核算</a><span class="badge">中英对照 · 1.8 MB</span></li>
+<li class="zh"><a href="lecture_06_kernels_triton.pdf">第 6 讲 · Kernel 与 Triton</a><span class="badge">中英对照 · 1.4 MB</span></li>
+<li class="zh"><a href="lecture_07_parallelism.pdf">第 7 讲 · 并行训练</a><span class="badge">中英对照 · 1.2 MB</span></li>
+<li class="zh"><a href="lecture_10_inference.pdf">第 10 讲 · 推理</a><span class="badge">中英对照 · 5.6 MB</span></li>
+<li class="zh"><a href="lecture_12_evaluation.pdf">第 12 讲 · 评测</a><span class="badge">中英对照 · 12.0 MB</span></li>
+<li class="zh"><a href="lecture_13_data_1.pdf">第 13 讲 · 数据 I</a><span class="badge">中英对照 · 3.7 MB</span></li>
+<li class="zh"><a href="lecture_14_data_2.pdf">第 14 讲 · 数据 II</a><span class="badge">中英对照 · 4.4 MB</span></li>
+<li class="zh"><a href="lecture_17_multimodal_models.pdf">第 17 讲 · 多模态模型</a><span class="badge">中英对照 · 18.3 MB</span></li>
+</ul>
+<h2>官方原版 PDF（Tatsu 一系）</h2>
+<ul>
+<li class="en"><a href="lecture_03_architecture_hyperparameters.pdf">第 3 讲 · LM 架构与超参数</a><span class="badge">原版 · 6.0 MB</span></li>
+<li class="en"><a href="lecture_04_attention_alternatives_moe.pdf">第 4 讲 · 注意力替代方案与混合专家</a><span class="badge">原版 · 6.5 MB</span></li>
+<li class="en"><a href="lecture_05_gpus.pdf">第 5 讲 · GPU</a><span class="badge">原版 · 5.2 MB</span></li>
+<li class="en"><a href="lecture_08_parallelism_basics.pdf">第 8 讲 · 并行基础</a><span class="badge">原版 · 6.6 MB</span></li>
+<li class="en"><a href="lecture_09_scaling_laws_basics.pdf">第 9 讲 · Scaling Laws 基础</a><span class="badge">原版 · 6.9 MB</span></li>
+<li class="en"><a href="lecture_11_scaling_case_study.pdf">第 11 讲 · Scaling 案例与细节</a><span class="badge">原版 · 6.7 MB</span></li>
+<li class="en"><a href="lecture_15_mid_post_training.pdf">第 15 讲 · 中/后训练</a><span class="badge">原版 · 6.4 MB</span></li>
+<li class="en"><a href="lecture_16_post_training_rl.pdf">第 16 讲 · 后训练 II：可验证奖励的 RL</a><span class="badge">原版 · 6.8 MB</span></li>
+</ul>
+<footer>
+课程主页：<a href="https://cs336.stanford.edu/">cs336.stanford.edu</a> ·
+讲义仓库：<a href="https://github.com/stanford-cs336/lectures">stanford-cs336/lectures</a>（MIT）<br>
+本站为个人学习用非官方重制；译文由 LLM 生成，仅供辅助理解，以英文原文为准。
+</footer>
+</body>
+</html>
